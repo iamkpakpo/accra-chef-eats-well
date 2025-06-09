@@ -3,7 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone } from "lucide-react";
+import { Mail, Phone, Instagram } from "lucide-react";
+import { Icon } from "lucide-react";
+import { tiktok } from "@lucide/lab";
 
 const Index = () => {
   const dishes = [
@@ -256,6 +258,24 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-accent/10 py-8 px-4 border-t border-border">
         <div className="container mx-auto text-center">
+          <div className="flex justify-center space-x-6 mb-4">
+            <a 
+              href="https://www.tiktok.com/@chefquamz_" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              <Icon iconNode={tiktok} size={20} />
+            </a>
+            <a 
+              href="https://www.instagram.com/chefquamz" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              <Instagram size={20} />
+            </a>
+          </div>
           <p className="text-muted-foreground">
             © 2024 Chef Kwame Asante. All rights reserved.
           </p>
