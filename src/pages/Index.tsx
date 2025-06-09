@@ -1,11 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, Instagram } from "lucide-react";
-import { Icon } from "lucide-react";
-import { tiktok } from "@lucide/lab";
+import { Mail, Phone, Instagram, ExternalLink } from "lucide-react";
 
 const Index = () => {
   const dishes = [
@@ -65,6 +62,13 @@ const Index = () => {
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
+
+  // Simple TikTok icon component
+  const TikTokIcon = ({ size = 20 }: { size?: number }) => (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M19.589 6.686a4.793 4.793 0 0 1-3.77-4.245V2h-3.445v13.672a2.896 2.896 0 0 1-5.201 1.743l-.002-.001.002.001a2.895 2.895 0 0 1 3.183-4.51v-3.5a6.329 6.329 0 0 0-1.932-.301 6.482 6.482 0 0 0-6.384 6.482 6.482 6.482 0 0 0 13.017.024v-6.017c.8.572 1.77.904 2.809.904a4.85 4.85 0 0 0 1.723-.310z"/>
+    </svg>
+  );
 
   return (
     <div className="min-h-screen bg-background">
@@ -265,7 +269,7 @@ const Index = () => {
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
-              <Icon iconNode={tiktok} size={20} />
+              <TikTokIcon size={20} />
             </a>
             <a 
               href="https://www.instagram.com/chefquamz" 
