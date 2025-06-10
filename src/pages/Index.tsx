@@ -58,7 +58,7 @@ const Index = () => {
 
   const handleWhatsAppContact = () => {
     const phoneNumber = "+233123456789";
-    const message = "Hello Chef Kwame! I'm interested in your culinary services.";
+    const message = "Hello Grand Piquant! I'm interested in your culinary services.";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
@@ -76,7 +76,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm z-50 border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <h1 className="text-2xl font-bold text-primary">Chef Kwame</h1>
+            <h1 className="text-2xl font-bold text-primary">Grand Piquant</h1>
             <div className="hidden md:flex space-x-8">
               <a href="#about" className="text-foreground hover:text-primary transition-colors">About</a>
               <a href="#services" className="text-foreground hover:text-primary transition-colors">Services</a>
@@ -92,7 +92,7 @@ const Index = () => {
         <div className="container mx-auto text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              <span className="text-gradient">Chef Kwame Asante</span>
+              <span className="text-gradient">Grand Piquant Catering</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
               Bringing the authentic flavors of Ghana to your table with a modern twist. 
@@ -123,28 +123,25 @@ const Index = () => {
       <section id="about" className="py-16 px-4 bg-secondary/30">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12 text-gradient">About Chef Kwame</h2>
+            <h2 className="text-4xl font-bold text-center mb-12 text-gradient">About Grand Piquant Catering</h2>
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <img 
                   src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=600&fit=crop" 
-                  alt="Chef Kwame" 
+                  alt="Grand Piquant Catering" 
                   className="rounded-lg shadow-warm w-full"
                 />
               </div>
               <div>
                 <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                  Born and raised in Accra, I discovered my passion for cooking at my grandmother's side, 
-                  learning the secret techniques passed down through generations of Ghanaian cooks.
-                </p>
-                <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                  After training at the prestigious Culinary Arts Institute and working in top restaurants 
-                  across West Africa, I founded my personal chef service to bring restaurant-quality 
-                  dining experiences directly to your home.
+                  Grand Piquant Catering is a Ghanaian-based boutique catering service offering bold, 
+                  flavourful dishes with a personalized touch. We specialize in crafting memorable 
+                  culinary experiences for intimate events, corporate functions, and special occasions.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  My philosophy is simple: every meal should tell a story, celebrate culture, 
-                  and create lasting memories around the table.
+                  Blending local ingredients, vibrant spices, and global inspiration to suit your unique 
+                  taste and vision, we bring restaurant-quality dining experiences directly to your venue. 
+                  Every meal tells a story, celebrates culture, and creates lasting memories around the table.
                 </p>
               </div>
             </div>
@@ -201,7 +198,7 @@ const Index = () => {
             <div>
               <h3 className="text-2xl font-bold mb-6 text-accent">Let's Create Something Delicious</h3>
               <p className="text-muted-foreground mb-8 leading-relaxed">
-                Ready to elevate your dining experience? Contact me to discuss your culinary needs, 
+                Ready to elevate your dining experience? Contact us to discuss your culinary needs, 
                 and let's create an unforgettable meal together.
               </p>
               
@@ -212,7 +209,7 @@ const Index = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="text-primary" size={20} />
-                  <span className="text-foreground">chef.kwame@email.com</span>
+                  <span className="text-foreground">info@grandpiquant.com</span>
                 </div>
               </div>
 
@@ -281,7 +278,7 @@ const Index = () => {
             </a>
           </div>
           <p className="text-muted-foreground">
-            © 2024 Chef Kwame Asante. All rights reserved.
+            © 2024 Grand Piquant Catering. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground mt-2">
             Website by <span className="text-primary font-semibold">Brndroid</span>
