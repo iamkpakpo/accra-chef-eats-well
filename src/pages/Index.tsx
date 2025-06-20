@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -127,7 +128,7 @@ const Index = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <img 
-                  src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500&h=600&fit=crop" 
+                  src="/lovable-uploads/05f41f1f-0bed-4e88-8460-f9c0fdcdbc07.png" 
                   alt="Grand Piquant Catering" 
                   className="rounded-lg shadow-warm w-full"
                 />
