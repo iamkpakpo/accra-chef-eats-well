@@ -50,9 +50,9 @@ const Index = () => {
       price: "Custom pricing available"
     },
     {
-      title: "Meal Prep Services",
-      description: "Weekly meal preparation with healthy, delicious options delivered fresh to your door.",
-      price: "From GHS 150 per week"
+      title: "Akwantu Dining",
+      description: "Private pop-up fine dining experiences that travel to beautiful or culturally rich locations in Ghana—lakeside Airbnbs, hidden gardens, beachside villas, rooftops, and heritage homes—blending Ghanaian-inspired cuisine with curated ambiance, storytelling, and local culture.",
+      price: "Custom pricing available"
     }
   ];
 
