@@ -41,17 +41,17 @@ const Index = () => {
   const services = [
     {
       title: "Private Cooking",
-      description: "Intimate dining experiences in the comfort of your home with personalized menus crafted just for you.",
+      description: "Intimate dining experiences in your home with personalized menus crafted specifically for your taste and dietary preferences.",
       price: "From GHS 200 per person"
     },
     {
       title: "Event Catering",
-      description: "Full-service catering for weddings, corporate events, and special celebrations with authentic Ghanaian and international cuisine.",
+      description: "Full-service catering for weddings, corporate events, and celebrations featuring authentic Ghanaian and international cuisine expertly prepared.",
       price: "Custom pricing available"
     },
     {
       title: "Akwantu Dining",
-      description: "Private pop-up fine dining experiences that travel to beautiful or culturally rich locations in Ghana—lakeside Airbnbs, hidden gardens, beachside villas, rooftops, and heritage homes—blending Ghanaian-inspired cuisine with curated ambiance, storytelling, and local culture.",
+      description: "Private pop-up fine dining experiences at beautiful Ghana locations, blending Ghanaian-inspired cuisine with curated ambiance and storytelling.",
       price: "Custom pricing available"
     }
   ];
