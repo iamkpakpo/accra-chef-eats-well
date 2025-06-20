@@ -9,32 +9,32 @@ const Index = () => {
     {
       id: 1,
       name: "Jollof Rice Fusion",
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/e7e9e07f-6f50-4d1d-b0ba-c5fc2ed71709.png"
     },
     {
       id: 2,
       name: "Grilled Tilapia",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/7ea78aa3-daca-4d6b-a0b9-c957a2742a61.png"
     },
     {
       id: 3,
       name: "Kelewele Delight",
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/cddc798f-8ada-44a4-9549-acf1583409d7.png"
     },
     {
       id: 4,
       name: "Waakye Special",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/8592faff-dde8-49b5-b64a-d7287e83cbde.png"
     },
     {
       id: 5,
       name: "Red Red & Plantain",
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/c861acbe-7f2e-49e8-a1a0-014d96ab3af8.png"
     },
     {
       id: 6,
       name: "Banku & Grilled Fish",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/47d81fb8-b8d6-4c3d-b325-f2bf9b764435.png"
     }
   ];
 
